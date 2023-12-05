@@ -168,6 +168,26 @@ display: none;
 }
 }
 @media (max-width: 451px){
+    .info-text {
+        top: 126px;
+        right: 103px;
+    }
+    .info-mod {
+        position: absolute;
+        top: 133px;
+        left: 88px;
+    }
+    .info-card, .info-mod h5 {
+        font-size: 24px;
+    }
+    .info-card, .info-mod1 h5 {
+        font-size: 20px;
+    }
+    .info-mod1 {
+        position: absolute;
+        right: 48px;
+        bottom: 101px;
+    }
     .hero-text h1 {
         font-size: 28px;
     }
@@ -186,7 +206,54 @@ display: none;
     }
 }
 @media (max-width: 400px){
-
+    .drone img {
+        width: 314px;
+    }
+    .info-text {
+        position: absolute;
+        top: 105px;
+        right: 76px;
+    }
+    .info-mod {
+        position: absolute;
+        top: 115px;
+        left: 73px;
+    }
+    .info-mod div {
+        position: relative;
+        bottom: 20px;
+        right: 43px;
+    }
+    .info-mod1 div {
+        position: relative;
+        bottom: 20px;
+        right: 43px;
+    }
+    .info-mod div {
+        width: 18px;
+        height: 18px;
+    }
+    .info-mod1 div {
+        width: 18px;
+        height: 18px;
+    }
+    .info-card, .info-mod h5 {
+        font-size: 19px;
+    }
+    .info-card, .info-mod1 h5 {
+        font-size: 19px;
+    }
+    .info-mod p {
+        font-size: 14px;
+    }
+    .info-mod1 p {
+        font-size: 14px;
+    }
+    .info-mod1 {
+        position: absolute;
+        right: 33px;
+        bottom: 71px;
+    }
 }
 @media (max-width: 376px){
 .header-price {
