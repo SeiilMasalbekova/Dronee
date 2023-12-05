@@ -1,0 +1,312 @@
+@media (max-width: 1440px){
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+}
+@media (max-width: 1200px){
+    #header {
+        padding: 37px 0 56px 0;
+    }
+    .header-nav {
+        display: none;
+    }
+.hero {display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+.hero-bg img {
+    width: 100%;
+}
+.hero-text p {
+    margin: 20px 0 31px 0;
+    width: 735px;
+}
+.hero-text button {
+    margin-bottom: 50px;
+}
+.drone img {
+    width: 600px;
+}
+.hero-bg {
+    position: relative;
+}
+.drone {
+    position: absolute;
+    bottom: 17px;
+    left: 28px;
+}
+.drone-text {
+    position: absolute;
+    bottom: 33px;
+    right: 73px;
+}
+.cards-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 1114px;
+}
+.card {
+    width:250px;
+}
+.main-info {
+    flex-direction: column;
+}
+.info-card1 {
+    margin-left: 0.1px;
+}
+}
+@media (max-width: 1024px){
+    .card {
+        width: 237px;
+    }
+    .cards-main {
+        width: 506px;
+    }
+.footer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+} 
+.footer-nav {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    margin: 40px 50px;
+}
+.footer img {
+    margin: 38px 38px 0 38px;
+}
+.header-number {
+    margin: 10px 0;
+}
+.footer-nav span {
+    display: none;
+}
+.footer-nav button {
+    width: 83px;
+    height: 30px;
+}
+}
+@media (max-width: 992px){
+
+}
+@media (max-width: 768px){
+.card-nav {
+    display: none;
+}
+.main-cards {
+    display: flex;
+    align-items: center;
+    
+}
+#header {
+    padding: 23px 0 36px 0;
+}
+.cards-nav h1 {
+    margin-right: 16px;
+}
+.cards-nav {
+    width: 673px;
+}
+.cards-nav a {
+    color: #2A2D46;
+    font-size: 13px;
+    font-weight: 400;
+    margin-right: 7px;
+}
+.about {
+    flex-wrap: wrap;
+}
+}
+@media (max-width: 576px){
+    .hero-text h1 {
+        width: 346px;
+        font-size: 32px;
+    }
+    .hero-text p {
+        width: 545px;
+    }
+    .drone img {
+        width: 472px;
+        
+    }
+    .drone-text {
+display: none;
+    }
+    #cards {
+        margin: 54px 0;
+    }
+   .cards-nav a {
+display: none;
+   }
+   .cards-nav {
+    width: 377px;
+}
+.info-card img {
+    width: 100%;
+}
+.info-card1 img {
+    width: 100%;
+}
+.hero-bg {
+    right: 1px;
+}
+.info-mod1 {
+    right: 59px;
+}
+.about {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+}
+@media (max-width: 451px){
+    .hero-text h1 {
+        font-size: 28px;
+    }
+    .hero-text p {
+        width: 354px;
+    }
+    .drone img {
+        width: 362px;
+    }
+
+    .card {
+        width: 211px;
+    }
+    .cards-main {
+        width: 343px;
+    }
+}
+@media (max-width: 400px){
+
+}
+@media (max-width: 376px){
+.header-price {
+    padding-left: 8px;
+}
+#header {
+    padding: 16px 0 28px 0;
+}
+.hero-text h1 {
+    font-size: 25px;
+}
+.hero-text p {
+    margin: 10px 0 21px 0;
+    width: 280px;
+}
+.drone img {
+    width: 288px;
+}
+.cards-nav h1 {
+    font-size: 20px;
+    margin-right: 8px;
+}
+.cards-nav {
+    width: 268px;
+}
+#main-info {
+    margin: 19px 0;
+}
+.info-text {
+    top: 123px;
+    right: 102px;
+}
+.info-card, .info-mod h5 {
+    font-size: 15px;
+}
+.info-mod p {
+    font-size: 15px;
+}
+.info-mod {
+    top: 115px;
+    left: 86px;
+}
+.info-mod1 h5 {
+    font-size: 18px;
+}
+.info-mod1 p {
+    font-size: 15px;
+}
+.info-mod1 {
+    right: 32px;
+    bottom: 75px;
+}
+}
+@media (max-width: 320px){
+    .drone img {
+        width: 245px;
+    }
+    .hero-text h1 {
+        width: 244px;
+    }
+    .hero-text p {
+        width: 241px;
+    }
+
+    .cards-main {
+        width: 270px;
+    }
+    .info-icon span {
+        font-size: 30px;
+    }
+    .info-text {
+        font-size: 16px;
+    }
+    .info-mod div {
+        width: 17px;
+        height: 16px;
+    }
+    .info-text {
+        top: 94px;
+    }
+    .info-mod {
+        top: 98px;
+        left: 57px;
+    }
+    .info-mod div {
+        right: 27px;
+    }
+    .info-mod p {
+        font-size: 12px;
+    }
+    .info-mod1 div {
+        width: 17px;
+        height: 16px;
+    }
+    .info-text1 {
+        top: 94px;
+    }
+    .info-mod1 div {
+        right: 27px;
+    }
+    .info-mod1 p {
+        font-size: 12px;
+    }
+    .info-icon1 span {
+        font-size: 30px;
+    }
+    .info-mod1 h5 {
+        font-size: 15px;
+    }
+    .info-mod1 {
+        right: 32px;
+        bottom: 58px;
+    }
+    .header-price {
+        padding-left: 0.1px;
+    }
+
+
+
+
+
+
+}

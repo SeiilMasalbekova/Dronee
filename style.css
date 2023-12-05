@@ -69,11 +69,13 @@ font-size: 12px;
 font-weight: 700;
 }
 .hero-text h1 {
+    width: 502px;
     color: #2A2D46;
     font-size: 36px;
     font-weight: 900;
 }
 .hero-text p {
+    width: 370px;
     color: #2A2D46;
 font-size: 16px;
 font-weight: 400;
